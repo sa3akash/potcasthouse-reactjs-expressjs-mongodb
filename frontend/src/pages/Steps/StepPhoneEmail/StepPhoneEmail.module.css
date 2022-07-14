@@ -1,0 +1,42 @@
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.toggleButton{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #262626;
+    outline: none;
+    border: none;
+}
+.toggleButton:last-child{
+    margin-left: 10px;
+}
+.active{
+    background-color: #0077FF;
+}
+.buttonWrapper{
+    margin-top: 30px;
+}
+.cardParagarph{
+    font-size: 14px;
+    font-weight: normal;
+    color: #C4C5C5;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+

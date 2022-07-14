@@ -1,0 +1,18 @@
+.otp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.buttonWrapper{
+    margin: 30px 0;
+}
+.cardParagarph{
+    font-size: 14px;
+    font-weight: normal;
+    color: #C4C5C5;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}

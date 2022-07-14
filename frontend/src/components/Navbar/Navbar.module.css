@@ -1,0 +1,50 @@
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.marginLeft{
+    margin-left: 10px;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navRightTitle{
+    font-size: 22px;
+    font-weight: bold;
+}
+.navRightimgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navRightimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0077FF;
+}
+.navRightButton{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
